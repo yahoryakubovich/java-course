@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalcultatorPlus {
+public class CalculatorPlus {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -39,6 +39,8 @@ public class CalcultatorPlus {
                 res = a * b;
                 System.out.println("Результат умножения: " + res);
                 break;
+            default:
+                System.out.println("Неизвестная операция");
         }
     }
 }
